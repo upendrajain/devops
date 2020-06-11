@@ -1,0 +1,437 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+nav 
+{
+	/*background: white;*/
+	position: relative;
+	z-index: 9;
+}
+nav button
+{
+	color:#fff !important;
+	border: 1px solid #fff !important;
+	outline:none !important;
+}
+nav ul li a
+{
+	color:white;
+	font-size: 16px !important;
+}
+nav ul li .log-btn
+{
+	color:white;
+}
+.log-btn
+{
+	border-radius: 32px !important;
+}
+.nav-img
+{
+	max-width: 140px;
+	height: 40px auto;
+	color:white;
+}
+
+nav
+{
+	position: relative;
+}
+.top::before
+{
+	content: '' !important;
+	background: url('../images/pool1.jpg') no-repeat center center/cover !important;
+	background: 100% 100%;
+	position: absolute !important;
+	height: 520px;
+	width: 100%;
+	z-index: -1;
+	opacity: 1;
+	top:0;
+	left:0;	
+}
+.top{
+	width:100%;
+	height:450px;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.top h1
+{
+	font-size: 64px !important;
+	color:white;
+	opacity: 0.90;
+}
+.top h4
+{
+	font-size: 22px !important;
+	color:white;
+}
+.top-search input
+{
+	padding:20px;
+	font-size: 14px;
+}
+.top-search input[type="text"]
+{
+	width:600px;
+	height:40px;
+	outline: none;
+	border:0;
+	border-radius: 25px;
+}
+.top i
+{
+	color:white;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*popular spot start*/
+#popular-spot img
+{
+	width:350px;
+	height: 300px;
+}
+#popular-spot p
+{
+	color:#9A9A9A !important;
+	cursor: pointer;
+}
+.btn-popular-spot
+{
+	border:0 !important;
+	outline: none !important;
+	border-radius: 25px;
+	padding:5px 20px;
+	border:1px solid #ff5f1c !important;
+	background: white;
+}
+.btn-popular-spot a
+{
+	text-decoration: none !important;
+	color:#ff5f1c !important;
+}
+.btn-popular-spot:hover 
+{
+	background: #ff5f1c;
+}
+.btn-popular-spot:hover a 
+{
+	color:#fff !important;
+}
+/*popular spot end*/
+
+/*demand start*/
+#demand img
+{
+	width:100%;
+	height: 100%;
+}
+#demand p
+{
+	color:#9A9A9A !important;
+}
+/*demand end*/
+/*how-swimply-work start*/
+#how-swimply-work p
+{
+	font-size: 14px;
+	color:#9A9A9A;
+}
+#how-swimply-work .btn-getstarted
+{
+	border:0;
+	border-radius: 25px;
+	padding:10px 20px;
+	background: white;
+	border:1px solid #ff5f1c;
+}
+#how-swimply-work .btn-getstarted a
+{
+	text-decoration: none;
+	color:#ff5f1c !important;
+}
+#how-swimply-work .btn-getstarted:hover
+{
+	background: #ff5f1c;
+}
+#how-swimply-work .btn-getstarted:hover a
+{
+	color:white !important;
+}
+/*how-swimply-work end*/
+
+/*Not just your pool start*/
+#signup
+{
+	background: #f9f9f9;
+}
+#signup img
+{
+	width:100%; 
+	height:400px;
+}
+#signup #btn-signup
+{
+	border:0;
+	border-radius: 25px;
+	padding:10px 20px;
+	background: white;
+	border:1px solid #ff5f1c;
+}
+#signup #btn-signup a
+{
+	text-decoration: none;
+	color:#ff5f1c !important;	
+}
+#signup #btn-signup:hover
+{
+	background: #ff5f1c;
+}
+#signup #btn-signup:hover a
+{
+	color:white !important;
+}
+/*Not just your pool end*/
+
+/*Experience their joy for yourself start*/
+/*#experience .carousel-item
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#experience img
+{
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+}*/
+/*Experience their joy for yourself end*/
+
+/*rent section start*/
+#about-rent
+{
+	width:100% !important;
+}
+#about-rent .ren::after
+{
+	content: '' !important;
+	background:url('../images/jared-mckinney-Ye3x1ESoFP0-unsplash.jpg') no-repeat center center/cover !important;
+	background: 100% 100%;
+	position: absolute !important;
+	height: 500px;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.75;
+	padding:0px 0px;
+	box-sizing: border-box;	
+	left:0;	
+}
+#about-rent .rent h4
+{
+	color:#f3f3f3;
+}
+#about-rent .rent h1
+{
+	color:#F9007B;
+	font-weight: 600;
+}
+#about-rent .rent h3,
+#about-rent .rent p
+{
+	color:white;
+	text-shadow: 2px 2px 3px #000 !important;
+}
+#about-rent .rent a
+{
+	outline:none !important;
+	text-decoration: none;
+	color:#fff;
+}
+#about-rent .rent .btn-learn-more
+{
+	background: #F9007B !important;
+	padding:5px 10px;
+	border-radius: 25px;
+}
+/*rent section end*/
+
+/*contact start*/
+#contact
+{
+	margin-top: 300px !important;
+}
+#contact img
+{
+	width:300px;
+	height:300px;
+}
+#contact .back
+{
+	width:100%;
+	height: 500px;
+	background: #fafafa;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top:50px;
+}
+#contact .back p
+{
+	color:#7b858b;
+}
+#contact .contact-form form input[type="text"],
+#contact .contact-form form input[type="email"]
+{
+	display: inline-block !important;
+	width:300px;
+	height:40px;
+	outline: none;
+	border:0;
+	border-radius: 25px;
+	box-shadow: 0px 0px 2px 0px  #000;
+	padding:5px 20px;
+	font-size: 16px;
+	margin-left: 10px;
+}
+#contact .contact-form form textarea
+{
+	display: inline-block !important;
+	width:500px;
+	outline: none;
+	border:0;
+	border-radius: 25px;
+	box-shadow: 0px 0px 2px 0px  #000;
+	padding:10px 20px;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#contact .contact-form form .submit-btn
+{
+	background: linear-gradient(90deg,#23d1f2,#14c8ef,#04bfeb,#00b6e7,#00ade2);
+	color:white;
+	border:0;
+	outline: none;
+	border-radius: 25px;
+	padding:5px 20px;
+	display: inline-block;
+	margin-top: 20px;
+}
+@media only screen and (max-width: 768px)
+{
+	nav
+	{
+		width:100% !important;
+	}
+	.top h1
+	{
+		text-align: center;
+		font-size: 2rem !important;
+	}
+	.top h4
+	{
+		text-align: center;
+		font-size: 1.5rem !important;
+	}
+	.top-search input[type="text"]
+	{
+		width:100%;
+	}
+	/*#popular-spot .popular-spot1
+	{
+		display: flex !important;
+		flex-direction: column !important;
+	}*/
+	#how-swimply-work
+	{
+		width:100%;
+	}
+	#how-swimply-work .row
+	{
+		display: flex !important;
+		flex-direction: column !important;
+	}
+	#signup
+	{
+		width:100% !important;
+	}
+	#signup img
+	{
+		width:100% !important;
+		height:300px;
+		padding:0px 5px;
+	}
+	#signup h2
+	{
+		padding:0px 0px !important;
+		width:100% !important;
+	}
+	#about-rent .ren::after
+	{
+		content: '' !important;
+		background: 100% 100%;
+		position: absolute !important;
+		width: 100%;
+		left:0;	
+	}
+	#about-rent
+	{
+		width:100%;
+	}
+	#about-rent .rent
+	{
+		width:100%;
+		text-align: center;
+	}
+	#contact .back
+	{
+		width:100%;
+		height: 100%;
+		padding-top:50px;
+		padding-bottom:20px;
+	}
+	#contact .contact-form form input[type="text"],
+	#contact .contact-form form input[type="email"]
+	{
+		width:100%;
+		margin-top: 20px;
+	}
+	#contact .contact-form form textarea
+	{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 568px)
+{
+	#popular-spot .popular-spot1
+	{
+		display: flex !important;
+		flex-direction: column !important;
+		margin:50px !important;
+	}
+	.btn-popular-spot
+	{
+		margin:50px auto !important;
+	}
+}
+@media only screen and (max-width: 400px)
+{
+	#popular-spot .popular-spot1
+	{
+		margin:0px !important;
+	}
+	.btn-popular-spot
+	{
+		margin:0px auto !important;
+	}
+}
